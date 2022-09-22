@@ -23,9 +23,9 @@ img {
   --header-height: 4.5rem;
 
   /* colors */
-  --hue: 356;
+  --hue: 220;
   /* HSL color mode */
-  --base-color: hsl(var(--hue) 36% 57%);
+  --base-color: hsl(var(--hue) 46% 57%);
   --base-color-second: hsl(var(--hue) 65% 88%);
   --base-color-alt: hsl(var(--hue) 57% 53%);
   --title-color: hsl(var(--hue) 41% 10%);
@@ -111,6 +111,7 @@ body {
 .container {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+  
 }
 
 .grid {
@@ -390,6 +391,7 @@ nav.show div.icon-close {
 #testimonials .container {
   margin-left: 0;
   margin-right: 0;
+  box-sizing:border-box;
 }
 
 #testimonials header {
@@ -442,6 +444,7 @@ nav.show div.icon-close {
 .swiper-pagination-bullet {
   width: 0.75rem;
   height: 0.75rem;
+  background-color: red;
 }
 
 .swiper-pagination-bullet-active {
